@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!-- This is a blank Tiles definition file with a commented example. -->
+
+<tiles-definitions>
+
+	<definition name="mainLayout" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- General Tutorials -->
+
+	<definition name="generalTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- EJB Tutorials -->
+
+	<definition name="EJBTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Hibernate Tutorials -->
+
+	<definition name="hibernateTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Pagination Tutorials -->
+
+	<definition name="paginationTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Eclipse Tutorials -->
+
+	<definition name="eclipseTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+
+	<!-- Reporting Tools Tutorials -->
+
+	<definition name="reportingToolsTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Make Business Online Tutorials -->
+
+	<definition name="makeBusinessOnlineTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Connect Database Tutorials -->
+
+	<definition name="connectDatabaseTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Interview Questions -->
+
+	<definition name="interviewQuestions" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- Flex Tutorials -->
+
+	<definition name="flexTutorials" path="/common/layouts/classicLayout.jsp">
+		<put name="header" value="/common/header.jsp" />
+		<put name="body" value="/common/body.jsp" />
+		<put name="rightPane" value="/common/rightPane.jsp" />
+		<put name="facebookComments" value="/common/facebookComments.jsp" />
+		<put name="footer" value="/common/footer.jsp" />
+	</definition>
+
+	<!-- default Body start -->
+	<definition name="welcome" extends="mainLayout">
+		<put name="title" value="title.javaworkspace" />
+		<put name="metaContent" value="metaContent.javaworkspace" />
+		<put name="body" value="/welcome.jsp" />
+	</definition>
+	<!-- default Body end -->
+
+	<!-- links -->
+
+	<!-- coreJava start -->
+	<definition name="coreJava" extends="generalTutorials">
+		<put name="title" value="title.coreJava" />
+		<put name="metaContent" value="metaContent.coreJava" />
+		<put name="body" value="/links/coreJava.jsp" />
+	</definition>
+	<!-- coreJava end -->
+
+	<!-- designPatterns start -->
+	<definition name="designPatterns" extends="generalTutorials">
+		<put name="title" value="title.designPatterns" />
+		<put name="metaContent" value="metaContent.designPatterns" />
+		<put name="body" value="/links/designPatterns.jsp" />
+	</definition>
+	<!-- designPatterns end -->
+
+	<!-- IDE start -->
+	<definition name="IDE" extends="generalTutorials">
+		<put name="title" value="title.ide" />
+		<put name="metaContent" value="metaContent.ide" />
+		<put name="body" value="/links/IDE.jsp" />
+	</definition>
+	<!-- IDE end -->
+
+	<!-- Splunk start -->
+	<definition name="splunk" extends="generalTutorials">
+		<put name="title" value="title.splunk" />
+		<put name="metaContent" value="metaContent.splunk" />
+		<put name="body" value="/links/splunk.jsp" />
+	</definition>
+	<!-- Splunk end -->
+
+	<!-- others start -->
+	<definition name="others" extends="generalTutorials">
+		<put name="title" value="title.others" />
+		<put name="metaContent" value="metaContent.others" />
+		<put name="body" value="/links/others.jsp" />
+	</definition>
+	<!-- others end -->
+
+	<!-- products start -->
+	<definition name="products" extends="generalTutorials">
+		<put name="title" value="title.products" />
+		<put name="metaContent" value="metaContent.products" />
+		<put name="body" value="/links/products.jsp" />
+	</definition>
+	<!-- Products end -->
+
+	<!-- links -->
+
+	<!-- General Tutorials -->
+
+	<!-- setClasspath start -->
+	<definition name="setClasspath" extends="generalTutorials">
+		<put name="title" value="title.setClassPath" />
+		<put name="metaContent" value="metaContent.setClassPath" />
+		<put name="body" value="/javaTutorials/setClasspath.jsp" />
+	</definition>
+	<!-- setClasspath end -->
+
+	<!-- percentagePath start -->
+	<definition name="percentagePath" extends="generalTutorials">
+		<put name="title" value="title.percentagePath" />
+		<put name="metaContent" value="metaContent.percentagePath" />
+		<put name="body" value="/javaTutorials/percentagePath.jsp" />
+	</definition>
+	<!-- percentagePath end -->
+
+	<!-- configureTomcat start -->
+	<definition name="configureTomcat" extends="generalTutorials">
+		<put name="title" value="title.configureTomcat" />
+		<put name="metaContent" value="metaContent.configureTomcat" />
+		<put name="body" value="/javaTutorials/configureTomcat.jsp" />
+	</definition>
+	<!-- configureTomcat end -->
+
+	<!-- Change Tomcat Port Number start -->
+	<definition name="changeTomcatPortNumber" extends="generalTutorials">
+		<put name="title" value="title.changeTomcatPortNumber" />
+		<put name="metaContent" value="metaContent.changeTomcatPortNumber" />
+		<put name="body" value="/javaTutorials/changeTomcatPortNumber.jsp" />
+	</definition>
+	<!-- Change Tomcat Port Number end -->
+
+	<!-- createJavaDoc start -->
+	<definition name="createJavaDoc" extends="generalTutorials">
+		<put name="title" value="title.createJavaDoc" />
+		<put name="metaContent" value="metaContent.createJavaDoc" />
+		<put name="body" value="/javaTutorials/createJavaDoc.jsp" />
+	</definition>
+	<!-- createJavaDoc end -->
+
+	<!-- addPluginsForEclipse start -->
+	<definition name="addPluginsForEclipse" extends="generalTutorials">
+		<put name="title" value="title.addPlugingsForEclipse" />
+		<put name="metaContent" value="metaContent.addPlugingsForEclipse" />
+		<put name="body" value="/javaTutorials/addPluginsForEclipse.jsp" />
+	</definition>
+	<!-- addPluginsForEclipse end -->
+
+	<!-- Java Mail Start -->
+	<definition name="javaMail" extends="generalTutorials">
+		<put name="title" value="title.javaMail" />
+		<put name="metaContent" value="metaContent.javaMail" />
+		<put name="body" value="/javaTutorials/javaMail.jsp" />
+	</definition>
+	<!-- Java Mail End -->
+
+	<!-- Java Code Conventions Start -->
+	<definition name="javaCodeConventions" extends="generalTutorials">
+		<put name="title" value="title.javaCodeConventions" />
+		<put name="metaContent" value="metaContent.javaCodeConventions" />
+		<put name="body" value="/javaTutorials/javaCodeConventions.jsp" />
+	</definition>
+	<!-- Java Code Conventions End -->
+
+	<!-- Create Executable Jar start -->
+	<definition name="createExecutableJar" extends="generalTutorials">
+		<put name="title" value="title.createExecutableJar" />
+		<put name="metaContent" value="metaContent.createExecutableJar" />
+		<put name="body" value="/javaTutorials/createExecutableJar.jsp" />
+	</definition>
+	<!-- Create Executable Jar end -->
+
+	<!-- How To Install MySQL start -->
+	<definition name="howToInstallMySQL" extends="generalTutorials">
+		<put name="title" value="title.howToInstallMySQL" />
+		<put name="metaContent" value="metaContent.howToInstallMySQL" />
+		<put name="body" value="/javaTutorials/howToInstallMySQL.jsp" />
+	</definition>
+	<!-- Install MySQL end -->
+
+	<!-- Interview Questions Start -->
+
+	<!-- Java Interview Questions start -->
+	<definition name="javaInterviewQuestions" extends="interviewQuestions">
+		<put name="title" value="title.javaInterviewQuestions" />
+		<put name="metaContent" value="metaContent.javaInterviewQuestions" />
+		<put name="body" value="/interviewQuestions/javaInterviewQuestions.jsp" />
+	</definition>
+	<!-- Java Interview Questions end -->
+
+	<!-- Exceptions start -->
+	<definition name="exceptions" extends="interviewQuestions">
+		<put name="title" value="title.exceptions" />
+		<put name="metaContent" value="metaContent.exceptions" />
+		<put name="body" value="/interviewQuestions/exceptions.jsp" />
+	</definition>
+	<!-- Exceptions end -->
+
+	<!-- Hibernate Interview Questions start -->
+	<definition name="hibernateInterviewQuestions" extends="interviewQuestions">
+		<put name="title" value="title.hibernateInterviewQuestions" />
+		<put name="metaContent" value="metaContent.hibernateInterviewQuestions" />
+		<put name="body" value="/interviewQuestions/hibernateInterviewQuestions.jsp" />
+	</definition>
+	<!-- Hibernate Interview Questions end -->
+
+	<!-- Servlet Interview Questions start -->
+	<definition name="servletInterviewQuestions" extends="interviewQuestions">
+		<put name="title" value="title.servletInterviewQuestions" />
+		<put name="metaContent" value="metaContent.servletInterviewQuestions" />
+		<put name="body" value="/interviewQuestions/servletInterviewQuestions.jsp" />
+	</definition>
+	<!-- Servlet Interview Questions end -->
+
+	<!-- JSP Interview Questions start -->
+	<definition name="JSPInterviewQuestions" extends="interviewQuestions">
+		<put name="title" value="title.JSPInterviewQuestions" />
+		<put name="metaContent" value="metaContent.JSPInterviewQuestions" />
+		<put name="body" value="/interviewQuestions/JSPInterviewQuestions.jsp" />
+	</definition>
+	<!-- JSP Interview Questions end -->
+
+	<!-- Struts Interview Questions start -->
+	<definition name="strutsInterviewQuestions" extends="interviewQuestions">
+		<put name="title" value="title.strutsInterviewQuestions" />
+		<put name="metaContent" value="metaContent.strutsInterviewQuestions" />
+		<put name="body" value="/interviewQuestions/strutsInterviewQuestions.jsp" />
+	</definition>
+	<!-- Struts Interview Questions end -->
+
+	<!-- Interview Questions End -->
+
+	<!-- Flex Tutorials Start -->
+
+	<!-- First Flex Program start -->
+	<definition name="firstFlexProgram" extends="flexTutorials">
+		<put name="title" value="title.firstFlexProgram" />
+		<put name="metaContent" value="metaContent.firstFlexProgram" />
+		<put name="body" value="/flexTutorials/firstFlexProgram.jsp" />
+	</definition>
+	<!-- First Flex Program end -->
+
+	<!-- Flex Tutorials End -->
+
+
+	<!-- EJB Tutorials Start -->
+
+	<!-- First Message Driven Bean(MDB) program Using EJB 2.0 and JBOSS start -->
+	<definition name="MDBUsingEJB2AndJBOSS" extends="EJBTutorials">
+		<put name="title" value="title.MDBUsingEJB2AndJBOSS" />
+		<put name="metaContent" value="metaContent.MDBUsingEJB2AndJBOSS" />
+		<put name="body" value="/EJBTutorials/MDBUsingEJB2AndJBOSS.jsp" />
+	</definition>
+	<!-- First Message Driven Bean(MDB) program Using EJB 2.0 and JBOSS end -->
+
+	<!-- EJB Tutorials End -->
+
+
+	<!-- Connect Database JDBC Start -->
+
+	<!-- Connect MySQL Database Start -->
+	<definition name="connectMysql" extends="connectDatabaseTutorials">
+		<put name="title" value="title.mysql" />
+		<put name="metaContent" value="metaContent.mysql" />
+		<put name="body" value="/connectDatabase/connectMysql.jsp" />
+	</definition>
+	<!-- Connect MySQL Database End -->
+
+	<!-- Connect SQLServer Database Start -->
+	<definition name="connectSqlserver" extends="connectDatabaseTutorials">
+		<put name="title" value="title.sqlserver" />
+		<put name="metaContent" value="metaContent.sqlserver" />
+		<put name="body" value="/connectDatabase/connectSqlserver.jsp" />
+	</definition>
+	<!-- Connect SQLServer Database End -->
+
+	<!-- Connect Oracle Database Start -->
+	<definition name="connectOracle" extends="connectDatabaseTutorials">
+		<put name="title" value="title.oracle" />
+		<put name="metaContent" value="metaContent.oracle" />
+		<put name="body" value="/connectDatabase/connectOracle.jsp" />
+	</definition>
+	<!-- Connect Oracle Database End -->
+
+	<!-- Connect DB2 Database Start -->
+	<definition name="connectDB2" extends="connectDatabaseTutorials">
+		<put name="title" value="title.db2" />
+		<put name="metaContent" value="metaContent.db2" />
+		<put name="body" value="/connectDatabase/connectDB2.jsp" />
+	</definition>
+	<!-- Connect DB2 Database End -->
+
+	<!-- Connect Postgre Database Start -->
+	<definition name="connectPostgre" extends="connectDatabaseTutorials">
+		<put name="title" value="title.postgre" />
+		<put name="metaContent" value="metaContent.postgre" />
+		<put name="body" value="/connectDatabase/connectPostgre.jsp" />
+	</definition>
+	<!-- Connect Postgre Database End -->
+
+	<!-- Connect ADS Database Start -->
+	<definition name="connectADS" extends="connectDatabaseTutorials">
+		<put name="title" value="title.ads" />
+		<put name="metaContent" value="metaContent.ads" />
+		<put name="body" value="/connectDatabase/connectADS.jsp" />
+	</definition>
+	<!-- Connect ADS Database End -->
+
+	<!-- Connect Derby Database Start -->
+	<definition name="connectDerby" extends="connectDatabaseTutorials">
+		<put name="title" value="title.derby" />
+		<put name="metaContent" value="metaContent.derby" />
+		<put name="body" value="/connectDatabase/connectDerby.jsp" />
+	</definition>
+	<!-- Connect Derby Database End -->
+
+	<!-- Connect Firebird Database Start -->
+	<definition name="connectFirebird" extends="connectDatabaseTutorials">
+		<put name="title" value="title.firebird" />
+		<put name="metaContent" value="metaContent.firebird" />
+		<put name="body" value="/connectDatabase/connectFirebird.jsp" />
+	</definition>
+	<!-- Connect Firebird Database End -->
+
+	<!-- Connect H2 Database Start -->
+	<definition name="connectH2" extends="connectDatabaseTutorials">
+		<put name="title" value="title.h2" />
+		<put name="metaContent" value="metaContent.h2" />
+		<put name="body" value="/connectDatabase/connectH2.jsp" />
+	</definition>
+	<!-- Connect H2 Database End -->
+
+	<!-- Connect HSQLDB Database Start -->
+	<definition name="connectHSQLDB" extends="connectDatabaseTutorials">
+		<put name="title" value="title.hsqldb" />
+		<put name="metaContent" value="metaContent.hsqldb" />
+		<put name="body" value="/connectDatabase/connectHSQLDB.jsp" />
+	</definition>
+	<!-- Connect HSQLDB Database End -->
+
+	<!-- Connect SQLite Database Start -->
+	<definition name="connectSQLite" extends="connectDatabaseTutorials">
+		<put name="title" value="title.sqlite" />
+		<put name="metaContent" value="metaContent.sqlite" />
+		<put name="body" value="/connectDatabase/connectSQLite.jsp" />
+	</definition>
+	<!-- Connect SQLite Database End -->
+
+	<!-- Connect SmallSQL Database Start -->
+	<definition name="connectSmallSQL" extends="connectDatabaseTutorials">
+		<put name="title" value="title.smallsql" />
+		<put name="metaContent" value="metaContent.smallsql" />
+		<put name="body" value="/connectDatabase/connectSmallSQL.jsp" />
+	</definition>
+	<!-- Connect SmallSQL Database End -->
+
+	<!-- Connect Database JDBC End -->
+
+	<!-- Make Money Online Start -->
+
+	<!-- List Of Online Advertising Programs Start -->
+	<definition name="listOfOnlineAdvertisingPrograms" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.listOfOnlineAdvertisingPrograms" />
+		<put name="metaContent" value="metaContent.listOfOnlineAdvertisingPrograms" />
+		<put name="body" value="/makeMoneyOnline/listOfOnlineAdvertisingPrograms.jsp" />
+	</definition>
+	<!-- List Of Online Advertising Programs End -->
+
+	<!-- Tips And Tricks start -->
+	<definition name="tipsAndTricks" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.tipsAndTricks" />
+		<put name="metaContent" value="metaContent.tipsAndTricks" />
+		<put name="body" value="/makeMoneyOnline/tipsAndTricks.jsp" />
+	</definition>
+	<!-- Tips and Tricks end -->
+
+	<!-- Host your website start -->
+	<definition name="hostYourWebSite" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.hostYourWebSite" />
+		<put name="metaContent" value="metaContent.hostYourWebSite" />
+		<put name="body" value="/makeMoneyOnline/hostYourWebSite.jsp" />
+	</definition>
+	<!-- Host your website end -->
+
+	<!-- Open PayPal Account start -->
+	<definition name="openPayPalAccount" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.openPayPalAccount" />
+		<put name="metaContent" value="metaContent.openPayPalAccount" />
+		<put name="body" value="/makeMoneyOnline/openPayPalAccount.jsp" />
+	</definition>
+	<!-- Open PayPal Account end -->
+
+	<!-- Privacy Policy Generator start -->
+	<definition name="privacyPolicyGenerator" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.privacyPolicyGenerator" />
+		<put name="metaContent" value="metaContent.privacyPolicyGenerator" />
+		<put name="body" value="/makeMoneyOnline/privacyPolicyGenerator.jsp" />
+	</definition>
+	<!-- Privacy Policy Generator end -->
+
+	<!-- Terms Of ServiceGenerator start -->
+	<definition name="termsOfServiceGenerator" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.termsOfServiceGenerator" />
+		<put name="metaContent" value="metaContent.termsOfServiceGenerator" />
+		<put name="body" value="/makeMoneyOnline/termsOfServiceGenerator.jsp" />
+	</definition>
+	<!-- Terms Of ServiceGenerator end -->
+
+	<!-- Add Social Bookmarking Service start -->
+	<definition name="addSocialBookmarkingService" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.addSocialBookmarkingService" />
+		<put name="metaContent" value="metaContent.addSocialBookmarkingService" />
+		<put name="body" value="/makeMoneyOnline/addSocialBookmarkingService.jsp" />
+	</definition>
+	<!-- Add Social Bookmarking Service end -->
+
+	<!-- Add RSS Feed To Your Site start -->
+	<definition name="addRSSFeedToYourSite" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.addRSSFeedToYourSite" />
+		<put name="metaContent" value="metaContent.addRSSFeedToYourSite" />
+		<put name="body" value="/makeMoneyOnline/addRSSFeedToYourSite.jsp" />
+	</definition>
+	<!-- Add RSS Feed To Your Site end -->
+
+	<!-- Add Sitemap To Your Site start -->
+	<definition name="addSitemapToYourSite" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.addSitemapToYourSite" />
+		<put name="metaContent" value="metaContent.addSitemapToYourSite" />
+		<put name="body" value="/makeMoneyOnline/addSitemapToYourSite.jsp" />
+	</definition>
+	<!-- Add Sitemap To Your Site end -->
+
+	<!-- Add Google Webmaster start -->
+	<definition name="googleWebmaster" extends="makeBusinessOnlineTutorials">
+		<put name="title" value="title.googleWebmaster" />
+		<put name="metaContent" value="metaContent.googleWebmaster" />
+		<put name="body" value="/makeMoneyOnline/googleWebmaster.jsp" />
+	</definition>
+	<!-- Add Google Webmaster end -->
+
+	<!-- Make Money Online End -->
+
+	<!-- Reporting Tools Tutorials Start -->
+
+	<!-- BIRT start -->
+	<definition name="birt" extends="reportingToolsTutorials">
+		<put name="title" value="title.birt" />
+		<put name="metaContent" value="metaContent.birt" />
+		<put name="body" value="/reportingTools/BIRT.jsp" />
+	</definition>
+	<!-- BIRT end -->
+
+	<!-- Jasper Reports start -->
+	<definition name="jasperReports" extends="reportingToolsTutorials">
+		<put name="title" value="title.jasperReports" />
+		<put name="metaContent" value="metaContent.jasperReports" />
+		<put name="body" value="/reportingTools/jasperReport.jsp" />
+	</definition>
+	<!-- Jasper Reports end -->
+
+	<!-- Reporting Tools Tutorials End -->
+
+	<!-- Hibernate Tutorials Start -->
+
+	<!-- First Hibernate Program start -->
+	<definition name="firstHibernateProgram" extends="hibernateTutorials">
+		<put name="title" value="title.firstHibernateProgram" />
+		<put name="metaContent" value="metaContent.firstHibernateProgram" />
+		<put name="body" value="/hibernateTutorials/firstHibernateProgram.jsp" />
+	</definition>
+	<!-- First Hibernate Program end -->
+
+	<!-- Many To One Association start -->
+	<definition name="manyToOneAssociation" extends="hibernateTutorials">
+		<put name="title" value="title.manyToOneAssociation" />
+		<put name="metaContent" value="metaContent.manyToOneAssociation" />
+		<put name="body" value="/hibernateTutorials/manyToOneAssociation.jsp" />
+	</definition>
+	<!-- Many To One Association end -->
+
+	<!-- One To One Association start -->
+	<definition name="oneToOneAssociation" extends="hibernateTutorials">
+		<put name="title" value="title.oneToOneAssociation" />
+		<put name="metaContent" value="metaContent.oneToOneAssociation" />
+		<put name="body" value="/hibernateTutorials/oneToOneAssociation.jsp" />
+	</definition>
+	<!-- One To One Association end -->
+
+	<!-- One To Many Association start -->
+	<definition name="oneToManyAssociation" extends="hibernateTutorials">
+		<put name="title" value="title.oneToManyAssociation" />
+		<put name="metaContent" value="metaContent.oneToManyAssociation" />
+		<put name="body" value="/hibernateTutorials/oneToManyAssociation.jsp" />
+	</definition>
+	<!-- One To Many Association end -->
+
+	<!-- Many To Many Association start -->
+	<definition name="manyToManyAssociation" extends="hibernateTutorials">
+		<put name="title" value="title.manyToManyAssociation" />
+		<put name="metaContent" value="metaContent.manyToManyAssociation" />
+		<put name="body" value="/hibernateTutorials/manyToManyAssociation.jsp" />
+	</definition>
+	<!-- Many To Many Association end -->
+
+	<!-- Lazy Initialization start -->
+	<definition name="lazyInitialization" extends="hibernateTutorials">
+		<put name="title" value="title.lazyInitialization" />
+		<put name="metaContent" value="metaContent.lazyInitialization" />
+		<put name="body" value="/hibernateTutorials/lazyInitialization.jsp" />
+	</definition>
+	<!-- Lazy Initialization end -->
+
+	<!-- Collection Types In Hibernate start -->
+	<definition name="collectionTypesInHibernate" extends="hibernateTutorials">
+		<put name="title" value="title.collectionTypesInHibernate" />
+		<put name="metaContent" value="metaContent.collectionTypesInHibernate" />
+		<put name="body" value="/hibernateTutorials/collectionTypesInHibernate.jsp" />
+	</definition>
+	<!-- Collection Types In Hibernate end -->
+
+	<!-- Hibernate Tutorials End -->
+
+
+	<!-- Design Patterns Start -->
+
+	<definition name="flyweightPattern" extends="mainLayout">
+		<put name="title" value="title.flyweightPattern" />
+		<put name="metaContent" value="metaContent.flyweightPattern" />
+		<put name="body" value="/tutorials/designPatterns/flyweightPattern.jsp" />
+	</definition>
+	<!-- Design Patterns End -->
+
+
+	<!-- Let's Explore Eclipse Start -->
+	<!-- Debug Tomcat start -->
+	<definition name="debugTomcat" extends="eclipseTutorials">
+		<put name="title" value="title.debugTomcat" />
+		<put name="metaContent" value="metaContent.debugTomcat" />
+		<put name="body" value="/eclipseTutorials/debugTomcat.jsp" />
+	</definition>
+	<!-- Debug Tomcat end -->
+
+	<!-- Unable to install breakpoint start -->
+	<definition name="unableToInstallBreakPoint" extends="eclipseTutorials">
+		<put name="title" value="title.unableToInstallBreakPoint" />
+		<put name="metaContent" value="metaContent.unableToInstallBreakPoint" />
+		<put name="body" value="/eclipseTutorials/unableToInstallBreakPoint.jsp" />
+	</definition>
+	<!-- Unable to install breakpoint end -->
+
+	<!-- VM not found start -->
+	<definition name="VMNotFound" extends="eclipseTutorials">
+		<put name="title" value="title.VMNotFound" />
+		<put name="metaContent" value="metaContent.VMNotFound" />
+		<put name="body" value="/eclipseTutorials/VMNotFound.jsp" />
+	</definition>
+	<!-- VM not found end -->
+
+	<!-- Splunk Tutorials Start -->
+
+	<definition name="splunkRename" extends="generalTutorials">
+		<put name="title" value="title.splunkRename" />
+		<put name="metaContent" value="metaContent.splunkRename" />
+		<put name="body" value="/splunkTutorials/splunkRename.jsp" />
+	</definition>
+
+	<definition name="splunkZeroOrMore" extends="generalTutorials">
+		<put name="title" value="title.splunkZeroOrMore" />
+		<put name="metaContent" value="metaContent.splunkZeroOrMore" />
+		<put name="body" value="/splunkTutorials/splunkZeroOrMore.jsp" />
+	</definition>
+
+	<definition name="splunkFieldExtraction" extends="generalTutorials">
+		<put name="title" value="title.splunkFieldExtraction" />
+		<put name="metaContent" value="metaContent.splunkFieldExtraction" />
+		<put name="body" value="/splunkTutorials/splunkFieldExtraction.jsp" />
+	</definition>
+
+	<definition name="splunkConcreteData" extends="generalTutorials">
+		<put name="title" value="title.splunkConcreteData" />
+		<put name="metaContent" value="metaContent.splunkConcreteData" />
+		<put name="body" value="/splunkTutorials/splunkConcreteData.jsp" />
+	</definition>
+
+	<definition name="splunkLookup" extends="generalTutorials">
+		<put name="title" value="title.splunkLookup" />
+		<put name="metaContent" value="metaContent.splunkLookup" />
+		<put name="body" value="/splunkTutorials/splunkLookup.jsp" />
+	</definition>
+
+	<!-- Splunk Tutorials End -->
+
+	<!-- Pagination Tutorials Start -->
+
+	<!-- Pagination Using Display Tags start -->
+	<definition name="displayTags" extends="paginationTutorials">
+		<put name="title" value="title.displayTags" />
+		<put name="metaContent" value="metaContent.displayTags" />
+		<put name="body" value="/pagination/paginationUsingDiplayTags.jsp" />
+	</definition>
+	<!-- Pagination Using Display Tags end -->
+
+	<!-- Pagination Using Pager Tags start -->
+	<definition name="pagerTags" extends="paginationTutorials">
+		<put name="title" value="title.pagerTags" />
+		<put name="metaContent" value="metaContent.pagerTags" />
+		<put name="body" value="/pagination/paginationUsingPagerTags.jsp" />
+	</definition>
+	<!-- Pagination Using Pager Tags end -->
+
+	<!-- Pagination In Servlets start -->
+	<definition name="paginationInServlets" extends="paginationTutorials">
+		<put name="title" value="title.paginationInServlets" />
+		<put name="metaContent" value="metaContent.paginationInServlets" />
+		<put name="body" value="/pagination/paginationInServlets.jsp" />
+	</definition>
+	<!-- Pagination In Servlets end -->
+
+	<!-- Pagination Using Java Script Start -->
+	<definition name="paginationUsingJavaScript" extends="paginationTutorials">
+		<put name="title" value="title.paginationUsingJavaScript" />
+		<put name="metaContent" value="metaContent.paginationUsingJavaScript" />
+		<put name="body" value="/pagination/paginationUsingJavaScript.jsp" />
+	</definition>
+	<!-- Pagination Using Java Script End -->
+
+	<!-- Pagination Tutorials Start -->
+
+	<!-- General Things Start -->
+
+	<!-- SiteMap start -->
+	<definition name="sitemap" extends="mainLayout">
+		<put name="title" value="title.sitemap" />
+		<put name="metaContent" value="metaContent.sitemap" />
+		<put name="body" value="/sitemap/sitemap.jsp" />
+	</definition>
+	<!-- SiteMap end -->
+
+	<!-- Contact start -->
+	<definition name="contactUs" extends="mainLayout">
+		<put name="title" value="title.contactUs" />
+		<put name="metaContent" value="metaContent.contactUs" />
+		<put name="body" value="/contactUs/contactUs.jsp" />
+	</definition>
+	<!-- Contact end -->
+
+	<!-- Terms Of Use start -->
+	<definition name="termsOfUse" extends="mainLayout">
+		<put name="title" value="title.termsOfUse" />
+		<put name="metaContent" value="metaContent.termsOfUse" />
+		<put name="body" value="/legal/termsOfUse.jsp" />
+	</definition>
+	<!-- Terms Of Use end -->
+
+	<!-- Privacy Policy Start -->
+	<definition name="privacyPolicy" extends="mainLayout">
+		<put name="title" value="title.privacyPolicy" />
+		<put name="metaContent" value="metaContent.privacyPolicy" />
+		<put name="body" value="/legal/privacyPolicy.jsp" />
+	</definition>
+	<!-- Privacy Policy End -->
+
+	<!-- Donations Page Start -->
+	<definition name="donations" extends="mainLayout">
+		<put name="title" value="title.donations" />
+		<put name="metaContent" value="metaContent.donations" />
+		<put name="body" value="/aboutUs/donations.jsp" />
+	</definition>
+	<!-- Donations Page End -->
+
+	<!-- AboutUs Page Start -->
+	<definition name="aboutUs" extends="mainLayout">
+		<put name="title" value="title.aboutUs" />
+		<put name="metaContent" value="metaContent.aboutUs" />
+		<put name="body" value="/aboutUs/aboutUs.jsp" />
+	</definition>
+	<!-- AboutUs Page End -->
+
+	<!-- Statistics Page Start -->
+	<definition name="statistics" extends="mainLayout">
+		<put name="title" value="title.statistics" />
+		<put name="metaContent" value="metaContent.statistics" />
+		<put name="body" value="/aboutUs/statistics.jsp" />
+	</definition>
+	<!-- Statistics Page End -->
+
+	<!-- Copyright Page Start -->
+	<definition name="copyright" extends="mainLayout">
+		<put name="title" value="title.copyright" />
+		<put name="metaContent" value="metaContent.copyright" />
+		<put name="body" value="/aboutUs/copyright.jsp" />
+	</definition>
+	<!-- Copyright Page End -->
+
+	<!-- Advertising Page Start -->
+	<definition name="advertising" extends="mainLayout">
+		<put name="title" value="title.advertising" />
+		<put name="metaContent" value="metaContent.advertising" />
+		<put name="body" value="/aboutUs/advertising.jsp" />
+	</definition>
+	<!-- Advertising Page End -->
+
+	<!-- General Things End -->
+
+</tiles-definitions>

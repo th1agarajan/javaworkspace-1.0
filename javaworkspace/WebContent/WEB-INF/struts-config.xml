@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<!-- This is a blank Struts configuration file with an example welcome action/page 
+	and other commented sample elements. Tiles and the Struts Validator are configured 
+	using the factory defaults and are ready-to-use. NOTE: If you have a generator 
+	tool to create the corresponding Java classes for you, you could include 
+	the details in the "form-bean" declarations. Otherwise, you would only define 
+	the "form-bean" element itself, with the corresponding "name" and "type" 
+	attributes, as shown here. -->
+<struts-config>
+
+	<global-exceptions />
+
+	<global-forwards>
+		<forward name="home" path="/welcome.do" />
+		<forward name="connectDatabaseHome" path="/welcome.do" />
+	</global-forwards>
+
+	<action-mappings>
+		<action forward="coreJava" path="/coreJava" />
+		<action forward="designPatterns" path="/designPatterns" />
+
+		<action forward="flyweightPattern" path="/flyweightPattern" />
+
+		<action forward="IDE" path="/IDE" />
+		<action forward="splunk" path="/splunk" />
+		<action forward="others" path="/others" />
+		<action forward="products" path="/products" />
+
+
+		<action forward="welcome" path="/welcome" />
+		<action forward="setClasspath" path="/setClasspath" />
+		<action forward="percentagePath" path="/percentagePath" />
+		<action forward="configureTomcat" path="/configureTomcat" />
+		<action forward="changeTomcatPortNumber" path="/changeTomcatPortNumber" />
+		<action forward="createJavaDoc" path="/createJavaDoc" />
+		<action forward="addPluginsForEclipse" path="/addPluginsForEclipse" />
+		<action forward="javaMail" path="/javaMail" />
+		<action forward="createExecutableJar" path="/createExecutableJar" />
+		<action forward="howToInstallMySQL" path="/howToInstallMySQL" />
+		<action forward="javaCodeConventions" path="/javaCodeConventions" />
+		<action forward="donations" path="/donations" />
+		<action forward="aboutUs" path="/aboutUs" />
+		<action forward="copyright" path="/copyright" />
+		<action forward="statistics" path="/statistics" />
+		<action forward="advertising" path="/advertising" />
+
+
+		<!-- EJB Tutorials Start -->
+		<action forward="MDBUsingEJB2AndJBOSS" path="/ejb/MDBUsingEJB2AndJBOSS" />
+		<!-- EJB Tutorials End -->
+
+		<action forward="listOfOnlineAdvertisingPrograms" path="/listOfOnlineAdvertisingPrograms" />
+		<action forward="tipsAndTricks" path="/tipsAndTricks" />
+		<action forward="hostYourWebSite" path="/hostYourWebSite" />
+		<action forward="openPayPalAccount" path="/openPayPalAccount" />
+		<action forward="privacyPolicyGenerator" path="/privacyPolicyGenerator" />
+		<action forward="termsOfServiceGenerator" path="/termsOfServiceGenerator" />
+		<action forward="addSocialBookmarkingService" path="/addSocialBookmarkingService" />
+		<action forward="addRSSFeedToYourSite" path="/addRSSFeedToYourSite" />
+		<action forward="addSitemapToYourSite" path="/addSitemapToYourSite" />
+		<action forward="googleWebmaster" path="/googleWebmaster" />
+
+		<action forward="connectMysql" path="/connectdatabase/connectMysql" />
+		<action forward="connectSqlserver" path="/connectdatabase/connectSqlserver" />
+		<action forward="connectOracle" path="/connectdatabase/connectOracle" />
+		<action forward="connectDB2" path="/connectdatabase/connectDB2" />
+		<action forward="connectPostgre" path="/connectdatabase/connectPostgre" />
+		<action forward="connectADS" path="/connectdatabase/connectADS" />
+		<action forward="connectDerby" path="/connectdatabase/connectDerby" />
+		<action forward="connectFirebird" path="/connectdatabase/connectFirebird" />
+		<action forward="connectH2" path="/connectdatabase/connectH2" />
+		<action forward="connectHSQLDB" path="/connectdatabase/connectHSQLDB" />
+		<action forward="connectSQLite" path="/connectdatabase/connectSQLite" />
+		<action forward="connectSmallSQL" path="/connectdatabase/connectSmallSQL" />
+
+		<action forward="birt" path="/birt" />
+		<action forward="jasperReports" path="/jasperReports" />
+
+		<action forward="firstHibernateProgram" path="/hibernate/firstHibernateProgram" />
+		<action forward="manyToOneAssociation" path="/hibernate/manyToOneAssociation" />
+		<action forward="oneToOneAssociation" path="/hibernate/oneToOneAssociation" />
+		<action forward="oneToManyAssociation" path="/hibernate/oneToManyAssociation" />
+		<action forward="manyToManyAssociation" path="/hibernate/manyToManyAssociation" />
+		<action forward="lazyInitialization" path="/hibernate/lazyInitialization" />
+		<action forward="collectionTypesInHibernate" path="/hibernate/collectionTypesInHibernate" />
+
+		<action forward="javaInterviewQuestions" path="/interviewquestions/javaInterviewQuestions" />
+		<action forward="exceptions" path="/interviewquestions/exceptions" />
+		<action forward="servletInterviewQuestions" path="/interviewquestions/servletInterviewQuestions" />
+		<action forward="JSPInterviewQuestions" path="/interviewquestions/JSPInterviewQuestions" />
+		<action forward="strutsInterviewQuestions" path="/interviewquestions/strutsInterviewQuestions" />
+		<action forward="hibernateInterviewQuestions"
+			path="/interviewquestions/hibernateInterviewQuestions" />
+
+		<action forward="firstFlexProgram" path="/flex/firstFlexProgram" />
+
+		<action forward="debugTomcat" path="/debugTomcat" />
+		<action forward="unableToInstallBreakPoint" path="/unableToInstallBreakPoint" />
+		<action forward="VMNotFound" path="/VMNotFound" />
+
+		<!-- Splunk Tutorials Start -->
+		<action forward="splunkRename" path="/splunkRename" />
+		<action forward="splunkZeroOrMore" path="/splunkZeroOrMore" />
+		<action forward="splunkFieldExtraction" path="/splunkFieldExtraction" />
+		<action forward="splunkConcreteData" path="/splunkConcreteData" />
+		<action forward="splunkLookup" path="/splunkLookup" />
+		<!-- Splunk Tutorials End -->
+
+		<action forward="displayTags" path="/displayTags" />
+		<action forward="pagerTags" path="/pagerTags" />
+		<action forward="paginationInServlets" path="/paginationInServlets" />
+		<action forward="paginationUsingJavaScript" path="/paginationUsingJavaScript" />
+
+		<action forward="sitemap" path="/sitemap" />
+		<action forward="contactUs" path="/contactUs" />
+		<action forward="termsOfUse" path="/termsOfUse" />
+		<action forward="privacyPolicy" path="/privacyPolicy" />
+
+	</action-mappings>
+
+
+	<controller processorClass="org.apache.struts.tiles.TilesRequestProcessor" />
+	<message-resources null="false" parameter="MessageResources" />
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="moduleAware" value="true" />
+	</plug-in>
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+</struts-config>
