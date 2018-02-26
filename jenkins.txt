@@ -20,16 +20,19 @@ pipeline {
 	stages {
 		stage('Setup') {
 			steps  {
+			echo "Setup Success"
 			}
 		}
 
 		stage('Build') {
 			steps  {
+			echo "Build Success"
 			}
 		}
 
 		stage('Deploy') {
 			steps  {
+			echo "Deploy Success"
 			}
 		}
 	}
